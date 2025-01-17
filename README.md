@@ -13,10 +13,11 @@ Utilizando JavaScript para a parte interativa ,CSS e Bootstrap para a responsivi
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
+
 <br>
 
 <p align="center">
-  <img alt="projeto Cronometro Virtual" src="![alt text](image.png)" width="100%">
+  <img alt="projeto Cronometro Virtual" src="https://github.com/user-attachments/assets/c91b01d0-39bd-4fa7-9ec6-890d29356833" width="100%">
 </p>
 
 
