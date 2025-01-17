@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+textarea,
+input,
+button,
+select,
+option {
+  font-family: "Mitr", serif;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(31, 103, 113, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+}
+
+#container-custom{
+    width: 40%;
+    height: 60%;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+#display-stopwatch {
+    font-family: monospace;
+    font-size: 5.5rem;
+}
+
+#btnStart, #btnStop, #btnReset {
+  padding:  0.375rem 3rem;
+}
+
+@media (max-width: 1414px) {
+  #container-custom {
+    width: 50%;
+    height: 60%;
+  }
+    #display-stopwatch {
+        font-size: 4.5rem;
+    }
+}
+@media (max-width: 941px) {
+  #container-custom {
+    width: 70%;
+    height: 60%;
+  }
+
+}
+@media (max-width: 682px) {
+  #container-custom {
+    width: 99%;
+    height: 60%;
+  }
+  #display-stopwatch {
+    font-size: 4rem;
+}
+#btnStart, #btnStop, #btnReset {
+    padding:  0.375rem 2.5rem;
+  }
+}
+
+@media (max-width: 427px){
+    #display-stopwatch {
+        font-size: 3.2rem;
+    }
+    #btnStart, #btnStop, #btnReset {
+        padding:  0.375rem 1.5rem;
+      }
+}

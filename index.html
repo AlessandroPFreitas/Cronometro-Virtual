@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="geral.css">
+    <script defer src="stopwatch.js"></script>
+    <!-- Link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="container d-flex flex-column justify-content-center    mx-auto my-auto rounded " id="container-custom">
+       
+            <div id="display-stopwatch" class="text-center mb-5 fw-bold text-white ">
+                00:00:00:00
+            </div>
+            <div class="btn-wrapper  d-flex justify-content-between">
+                <button id="btnStart" onclick="start()" class="btn btn-success fs-5 fw-bold"> START </button>
+                <button id="btnStop" onclick="stop()" class="btn btn-danger fs-5  fw-bold"> STOP </button>
+                <button id="btnReset" onclick="reset()" class="btn btn-primary fs-5 fw-bold"> RESET </button></div>
+
+    </section>
+</body>
+</html>
